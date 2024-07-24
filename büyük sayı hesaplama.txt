@@ -1,0 +1,12 @@
+s1=int(input("bir sayı girin:"))
+s2=int(input("bir sayı girin:"))
+s3=int(input("bir sayı girin:"))
+
+if s1>=s2 and s1>=s3:
+    büyük=s1
+elif s2>=s1 and s2>=s3:
+    büyük=s2
+else:
+    büyük=s3
+
+print("en büyük sayı:",büyük)
